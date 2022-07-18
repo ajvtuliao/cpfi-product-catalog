@@ -1,8 +1,6 @@
 .body {
     background-color: #E6F1F1;
-    min-height: 90vh;
+    min-height: 92vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
   }

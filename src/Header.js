@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 let Header = () => {
   return (
     <>
-      <Navbar  className="header" bg="#FFFFFF" variant="light" sticky="top">
+      <Navbar  className="header" bg="light" variant="light" sticky="top">
         <Container>
           <Row >
             <Col xs={3} sm={3} md={3} lg={5}>
