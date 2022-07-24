@@ -38,9 +38,7 @@ class Body extends React.Component {
               <Col lg={2} md={2}>
                 <Stack spacing={3}  sx={{ mt: 5, minWidth: '100%'}} direction="row">
                   <Button variant="contained" size="medium" sx={{mt: 0.1, mb: 0.3, ml: -8, backgroundColor:'#05B1B0', textTransform: 'capitalize', }} startIcon={<SearchIcon fontSize="inherit" /> }><b>Search</b></Button>
-                  <Dropdown as={ButtonGroup} 
-                    size="md"
-                  >
+                  <Dropdown as={ButtonGroup}>
                     <Dropdown.Toggle variant="dark" className="sort-menu"><b>Sort Products</b></Dropdown.Toggle>
                     <Dropdown.Menu className="sort" variant="dark">
                       <Dropdown.Item eventKey="1">Alphabetical - A to Z</Dropdown.Item>
@@ -51,6 +49,12 @@ class Body extends React.Component {
                     </Dropdown.Menu>
                   </Dropdown>
                 </Stack>
+              </Col>
+            </Row>
+            <Row>
+              <Col lg={2}>
+              </Col>
+              <Col lg={10}>
               </Col>
             </Row>
           </Container>
